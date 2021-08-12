@@ -1,0 +1,170 @@
+a:link {
+  color: black;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a:active {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+body {
+  font-family: "Raleway", "Sans serif";
+  margin: 0;
+  width: 100%;
+}
+.back {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  max-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.cyber_sec {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: grey;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: -8px;
+  width: 100%;
+}
+.big_box {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  /*background-color: white;*/
+  padding: 1rem;
+}
+.service {
+  background: lightgray;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  margin-right: 4%;
+  padding: 10px;
+}
+.accomp {
+  display: flex;
+  flex-wrap: wrap;
+  background: lightgray;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  max-width: 35%;
+}
+li {
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 0.7rem;
+  background: white;
+  margin-bottom: 10px;
+}
+
+button {
+  position: relative;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(
+    to right,
+    #870000 0%,
+    #190a05 51%,
+    #870000 100%
+  );
+}
+.btn_grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn_grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.devis {
+  display: flex;
+  justify-content: center;
+}
+/******FOOTER******/
+
+.footer {
+  background-color: #f2f2f27c;
+  width: 100%;
+}
+.footerColumnwrapper {
+  display: flex;
+  max-width: 100%;
+  width: 1440px;
+  margin: auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.footerColumnwrapperColumn {
+  width: 30%;
+  padding: 2rem 2rem;
+}
+.footerColumnwrapperColumnLink {
+  display: block;
+  margin: 1rem 0;
+}
+.footerColumnwrapperColumnLink:hover {
+  text-decoration: underline;
+}
+.anssi {
+  width: 55px;
+  height: 55px;
+}
+
+@media (max-width: 750px) {
+  .footerColumnwrapper {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .footerColumnwrapperColumn {
+    width: 100%;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .footerColumnwrapperColumn:first-child {
+    margin-top: 0;
+  }
+  .footerColumnwrapperColumn:last-child {
+    margin-bottom: 0;
+  }
+  .footerColumnwrapperColumnTitle {
+    margin: 0;
+  }
+  .footerColumnwrapperColumnLink:last-child {
+    margin-bottom: 0;
+  }
+}
